@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse # IMPORT HttpResponse FROM MODULE
-from graphql_app.models import Mod, Webpage, AccessRecord
+from graphql_app.models import Mod
 # Create your views here.
 def index(request):
     #my_dict = {'render_variable': "Testing Templates"}

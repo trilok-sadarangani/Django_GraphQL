@@ -1,5 +1,5 @@
 from django.contrib import admin
-from django.urls import include, path
+from django.urls import path
 from django.conf.urls import url
 
 from graphql_app.schema import schema
